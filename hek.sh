@@ -1,6 +1,6 @@
 discord_url="https://discord.com/api/webhooks/1098558144940081253/G4O7jhCIxOQmHNXqqom4ZDBPTbdPQK2VIULMS5ZECvufZhLJjVERNQJ1-Eq4_zMFtlG9"
 
-cd ../../tmp
+cd ../../../tmp
 
 wget https://raw.githubusercontent.com/funfactcat/latenightthought/main/run.sh
 
